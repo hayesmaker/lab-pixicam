@@ -1,5 +1,4 @@
-var bindAll = require('lodash/function/bindAll'),
-  augment = require('./vendor/augment'),
+var augment = require('./vendor/augment'),
   glmatrix = require('./vendor/gl-matrix'),
   Rectangle = require('./math/rectangle'),
   Point = require('./math/point'),
@@ -9,7 +8,6 @@ var mat2d = glmatrix.mat2d;
 
 var MinimapNavigator = augment.defclass({
   constructor: function(minimap){
-    bindAll(this);
 
     this.minimap = minimap;
     minimap.interactive = true;

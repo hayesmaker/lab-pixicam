@@ -1,5 +1,4 @@
-var bindAll = require('lodash/function/bindAll'),
-  augment = require('./vendor/augment'),
+var augment = require('./vendor/augment'),
   glmatrix = require('./vendor/gl-matrix'),
   Rectangle = require('./math/rectangle'),
   Point = require('./math/point');
@@ -9,7 +8,6 @@ var bindAll = require('lodash/function/bindAll'),
 
   var CameraPan = augment.defclass({
     constructor: function(camera){
-      bindAll(this);
 
       this.camera = camera;
       

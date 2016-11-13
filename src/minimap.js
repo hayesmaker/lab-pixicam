@@ -1,5 +1,4 @@
-var bindAll = require('lodash/function/bindAll'),
-  augment = require('./vendor/augment'),
+var augment = require('./vendor/augment'),
   glmatrix = require('./vendor/gl-matrix'),
   Rectangle = require('./math/rectangle'),
   MinimapNavigator = require('./minimap-navigator'),

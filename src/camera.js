@@ -1,5 +1,4 @@
-var bindAll = require('lodash/function/bindAll'),
-  augment = require('./vendor/augment'),
+var augment = require('./vendor/augment'),
   glmatrix = require('./vendor/gl-matrix'),
   Rectangle = require('./math/rectangle'),
   Point = require('./math/point');
@@ -9,7 +8,6 @@ var vec2 = glmatrix.vec2;
 
 var Camera = augment.defclass({
   constructor: function(screenWidth, screenHeight){
-    bindAll(this);
 
     this._position = new Point(0, 0);
     this._positionLimited = new Point(0, 0);
