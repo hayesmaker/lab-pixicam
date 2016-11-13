@@ -12,26 +12,31 @@
     "type": "git",
     "url": "https://github.com/georgiee/pixicam.git"
   },
-
   "aliasify": {
     "aliases": {
       "underscore": "lodash"
     }
   },
-
   "scripts": {},
-  "dependencies": {
-    "async": "^0.9.0",
-    "brfs": "^1.4.0",
-    "lodash": "^3.1.0"
-  },
-
+  "dependencies": {},
   "devDependencies": {
     "aliasify": "^1.7.2",
+    "async": "^0.9.0",
+    "brfs": "^1.4.0",
     "browserify": "^9.0.8",
+    "del": "^2.2.2",
     "gulp": "^3.8.11",
+    "gulp-cached": "^1.1.0",
+    "gulp-jshint": "^2.0.2",
+    "gulp-mirror": "^1.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.2.0",
+    "gulp-uglify": "^2.0.0",
     "gulp-util": "^3.0.4",
+    "jshint": "^2.9.4",
     "jshint-summary": "^0.4.0",
+    "lodash": "^3.1.0",
     "require-dir": "^0.3.0",
     "run-sequence": "^1.0.2",
     "vinyl-buffer": "^1.0.0",
