@@ -4,11 +4,16 @@ A world container which can be viewed through an accompanying camera.
 See here:  
 [Preview](http://georgiee.github.io/lab-pixicam/)
 
-Usage:
+Installation
+
+npm install https://github.com/hayesmaker/lab-pixicam.git --save
+
+Usage (with Babel)
 
 ```
+import * as pixicam from 'pixicam';
 
-var options = {
+let options = {
   screenWidth: 5000,
   screenHeight: 700,
   width: 5000,
@@ -17,12 +22,12 @@ var options = {
   centerY: 0
 }
 
-var world = new pixicam.World(options);
+let world = new pixicam.World(options);
 world.setScreenSize(500, 500);
 world.setSize(5000,1000);
 world.setCenter(0,0);
 
-var camera = world.camera;
+let camera = world.camera;
 //now move and zoom the camera
 
 ```
