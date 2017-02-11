@@ -4,7 +4,7 @@
   "description": "2d matrix based camera system",
   "author": "Georgios Kaleadis",
   "contributors": [],
-  "main": "./bin/pixicam.js",
+  "main": "./src/index.js",
   "homepage": "http://www.kaleadis.de",
   "bugs": "https://github.com/georgiee/pixicam/issues",
   "license": "MIT",
